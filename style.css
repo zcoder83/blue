@@ -1,0 +1,332 @@
+@charset "UTF-8";
+body {
+    font-family: '小塚ゴシック Pr6N', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+}
+.contents {
+    width: 375px;
+    margin: auto;
+}
+.center {
+    width: 100%;
+
+}
+.align-center {
+    text-align: center;
+}
+.section01 {
+    border: 1px solid #113B7A;
+    box-sizing: border-box;
+}
+.title01 {
+    margin: 20px auto 10px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+}
+.img01 {
+    display: block;
+    width: 375px;
+
+}
+.nayami {
+    display: block;
+    margin: auto;
+    list-style: none;
+    width: 230px;
+}
+.nayami li {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+.nayami li:not(:first-of-type) {
+    margin-top: 5px;
+}
+
+
+.nayami li img {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+.nayami li p {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+}
+.text-img {
+    width: 100%;
+    text-align: center;
+}
+.text01 {
+    width: 90%; 
+}
+.title02 {
+    font-size: 1.4rem;
+    color: #113B7A;
+    margin-top: 5px;
+    font-family: 'Anton', sans-serif;
+}
+.compress {
+    font-size: 0.6rem;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+}
+.desc01 {
+    font-size: 0.9rem;
+    color: #DC1022;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+    font-style: italic;
+}
+.compress-img {
+    display: inline-block;
+    width: 100%;
+}
+.title03 {
+    border: 1px solid #113B7A;
+    padding: 5px 10px;
+    margin: 5px auto 10px;
+    width: 250px;
+    font-size: 0.62rem;
+}
+.sekkei {
+    display: inline-block;
+    width: 100%;
+}
+.sek-wrap {
+    width: 95%;
+    margin: 10px auto 0;
+}
+.sekkei-txt {
+    font-size: 0.58rem;
+    line-height: 1.7;
+}
+
+.section03 {
+    margin: 15px auto;
+    border: 1px solid #113B7A;
+    padding: 10px 0;
+}
+.movie {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+.yshirt {
+    display: inline-block;
+    width: 100%;
+}
+.shirt-txt {
+    margin: 8px auto 0;
+    width: 75.5%;
+    line-height: 1.7;
+    font-size: 0.6rem;
+}
+.line {
+    height: 0.7px;
+    background: #000;
+    width: 85%;
+    margin: auto;
+}
+.shirt-desc {
+    margin: 10px auto;
+    width: 95%;
+    font-size: 0.53rem;
+    line-height: 1.6;
+
+}
+
+.section04 h2 {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 30px;
+    font-family: 'Yu Gothic UI';
+}
+.kinou {
+    background-color: #113B7A;
+    color: #fff;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.kinou h2 {
+    padding: 5px;
+    border: 1px solid #fff;
+    margin: 8px 5px;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+    letter-spacing: 1px;
+}
+.kinou-p {
+    font-size: 0.6rem;
+    padding: 5px 10px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+}
+
+.model {
+    width: 100%;
+    font-size: 0;
+    margin: 10px 0;
+}
+.model-item {
+    width: 30%;
+    display: inline-block;
+    margin-left: 2.5%;
+}
+.model-img {
+    display: block;
+    width: 100%;
+}
+
+.model-title {
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 3% 0;
+    border: 1px solid #fff;
+    margin: 7px auto 0;
+    width: 90%;
+}
+.model-desc {
+    margin: 5px auto;
+    font-size: 0.45rem;
+    width: 92%;
+    line-height: 1.5;
+}
+.model2 .model-item {
+    vertical-align: top;
+}
+.model2 {
+    margin-bottom: 0;
+}
+
+/* section05 */
+.section05 {
+    border: 1px solid #113B7A;
+    box-sizing: border-box;
+}
+.ad-item {
+    position: relative;
+    width: 95%;
+    margin: 20px auto 5px;
+    background-color: #F1F1F1;
+    border: 2px dotted #C21A1F;
+    border-radius: 5px;
+    padding: 10px 0 8px;
+ 
+}
+.maku-wrap {
+    width: 37%;
+    display: block;
+    margin: auto;
+}
+.circle {
+    display: inline-block;
+    width: 13%;
+    position: absolute;
+    left: 19%;
+    top: -10%;
+}
+.makuake {
+    display: block;
+    width: 100%;
+}
+.internet {
+    text-align: center;
+    margin: 10px auto 5px;
+    font-size: 0.65rem;
+    color: #C21A1F;
+}
+.three {
+    width: 83%;
+    margin: auto;
+}
+.three .button {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.three .button img {
+    display: block;
+    width: 100%;
+}
+.section06 {
+    background: url('img/body.png') no-repeat bottom;;
+    background-size: 100% 100%;
+    padding: 7% 0 3%;
+    vertical-align: top;
+}
+.right-side {
+    width: 75%;
+    margin-left: 25%;
+    text-align: center;
+}
+.body-title {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.body-txt {
+    color: #DC1022;
+    font-size: 0.7rem;
+    margin: 8px auto 12px;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+    font-style: italic;
+}
+.blue-bull {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.blue-bull img {
+    display: block;
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    padding: 40px 0 0;
+    font-size: 0;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li {
+    display: inline-block;
+}
+.company {
+    width: 30%;
+}
+.company a {
+    display: inline-block;
+    text-decoration: nne;
+    color: #fff;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.copyright {
+    width: 60%;
+    font-size: 0.4rem;
+    font-family: '小塚ゴシック Pro', "Hiragino Kaku Gothic ProN", Meiryo, sans-sans-serif ;
+    vertical-align: 2px;
+}
+.social {
+    width: 10%;
+    text-align: right;
+}
+.social a {
+    display: inline-block;
+    color: #fff;
+}
+.social i {
+    font-size: 0.7rem;
+    margin-right: 8px;
+}
+
